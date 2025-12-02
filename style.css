@@ -107,7 +107,6 @@ button:hover {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
-
 .circle-card:hover {
   transform: scale(1.05);
 }
@@ -142,4 +141,5 @@ button:hover {
   color: #c5c5c5;
   font-size: 14px;
 }
+
 
