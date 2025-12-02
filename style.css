@@ -100,9 +100,12 @@ button:hover {
 }
 
 .circle-card {
+  display: flex;              
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   cursor: pointer;
-  transition: 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .circle-card:hover {
@@ -139,3 +142,4 @@ button:hover {
   color: #c5c5c5;
   font-size: 14px;
 }
+
